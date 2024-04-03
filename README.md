@@ -1,44 +1,9 @@
-# 鱼皮 RPC 框架
-
-> 从 0 到 1，带你开发自己的 RPC 框架
->
-> 鱼皮原创项目教程系列：https://yuyuanweb.feishu.cn/wiki/SePYwTc9tipQiCktw7Uc7kujnCd
-
-
-
-## 项目介绍
-
-基于 Java + Etcd + Vert.x 的高性能 RPC 框架，用新颖的技术栈从 0 到 1 带大家开发轮子。教程由浅入深，可以学习并实践基于 Vert.x 的网络服务器、序列化器、基于 Etcd 和 ZooKeeper 的注册中心、反射、动态代理、自定义网络协议、多种设计模式（单例 / 工厂 / 装饰者等）、负载均衡器设计、重试和容错机制、Spring Boot Starter 注解驱动开发等，大幅提升架构设计能力。
-
-项目分为基础版和扩展版：
-
-- 基础版只需学几个小时，就能写在简历上的小项目~
-- 扩展版将是充满亮点的技术类项目，搭配一个业务项目，让简历更有竞争力。
-
-> 开始学习或了解详情：[手写 RPC 框架（24 年最新）](https://yuyuanweb.feishu.cn/wiki/EweIwSYsXiEvCDkzS8BcTiAonyc)
->
-> 开源地址：https://github.com/liyupi/yu-rpc
-
-
-
-## 项目展示
-
-目录结构：
-
-![](./docs/tutorial.jpg)
-
-
-详细的保姆级文字教程：
-
-![](./docs/structure.jpg)
 
 
 
 ## 技术选型
 
 ### 后端
-
-后端技术以 Java 为主，但所有的思想和设计都是可以复用到其他语言的，代码不同罢了。
 
 - ⭐️ Vert.x 框架
 - ⭐️ Etcd 云原生存储中间件（jetcd 客户端）
@@ -64,8 +29,8 @@
 
 ## 源码目录
 
-- yu-rpc-core：鱼皮 RPC 框架核心代码
-- yu-rpc-easy：鱼皮 RPC 框架简易版（适合新手入门）
+- yu-rpc-core RPC 框架核心代码
+- yu-rpc-easy  RPC 框架简易版（适合新手入门）
 - example-common：示例代码公用模块
 - example-consumer：示例服务消费者
 - example-provider：示例服务提供者
